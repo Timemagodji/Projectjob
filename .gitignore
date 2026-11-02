@@ -1,0 +1,31 @@
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.gradio/
+
+# Heavy Datasets (exceeds GitHub storage limits)
+dataset/
+master_dataset/
+screening_experiment/
+*.zip
+*.tar.gz
+
+# Pre-trained Model Weights (> 100MB exceeds GitHub push limits)
+*.keras
+*.h5
+*.tflite
+*.pb
+saved_model/
+checkpoints/
+
+# OS / Temporary Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
